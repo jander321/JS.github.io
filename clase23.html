@@ -7,20 +7,14 @@
 </head>
 <body>
     <div id="resultado"></div>
-
-    <div id="resultado"></div>
-
-    <div id="resultado"></div>
     <script>
-        var valores=[1,2,3,4,5,6,7,8,9,10];
-        var resultado=valores[0]+valores[2]+valores[4]+valores[6]+valores[8];
-        document.getElementById('resultao').innerHTML="resultado: "+resultado;
+        function sumar(valor1,valor2)
+        {
+            var reesultado=valor1+valor2;
+            document.getElementById("resultado").innerHTML="la funcion obtiene la siguiente suma: "+reesultado;
+        }
 
-        var resultado=valores[1]+valores[3]+valores[5]+valores[7]+valores[9];
-        document.getElementById('resultao').innerHTML="resultado: "+resultado;
-
-        var resultado=valores[4]+valores[9];
-        document.getElementById('resultao').innerHTML="resultado: "+resultado;
+        sumar(50,200);
     </script>
 </body>
 </html>
