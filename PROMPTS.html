@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id= "resultado1" ></div>
+    <div id= "resultado2" ></div>
+    <div id= "resultado3" ></div>
+    <div id= "resultado4" ></div>
+    <script>
+        function sumar()
+        {
+            valor1=(prompt("ingrese su nombre:"));
+            valor2=parseInt(prompt("ingrese su numero para x:"));
+            valor3=parseInt(prompt("ingrese su numero para y:"));
+            valor4=parseInt(prompt("ingrese su numero para z:"));
+
+            var resultado= valor1;
+            document.getElementById("resultado1").innerHTML="su nombre es: "+resultado;
+
+            var resultado= valor2+valor3+valor4;
+            document.getElementById("resultado2").innerHTML="La funcion obtiene la siguiente suma: "+resultado;
+
+            var resultado= valor2*valor3*valor4;
+            document.getElementById("resultado3").innerHTML="La funcion obtiene la siguiente multiplicacion: "+resultado;
+
+            var resultado= valor2-valor3-valor4;
+            document.getElementById("resultado4").innerHTML="La funcion obtiene la siguiente resta: "+resultado;
+
+        }
+        sumar()
+
+    </script>
+</body>
+</html>
