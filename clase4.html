@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="resultado"></div>
+    <script>
+        function sumar()
+        {
+            valor1 =parseInt(prompt("vamos a sumar 2 numeros. Ingrese el numero uno"));
+            valor2 =parseInt(prompt("ingrese el numero dos"));
+
+            var reesultado=valor1+valor2;
+            document.getElementById("resultado").innerHTML="la funcion obtiene la siguiente suma: "+reesultado;
+        }
+
+        sumar();
+    </script>
+</body>
+</html>
